@@ -1,0 +1,62 @@
+* {
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: Verdana, sans-serif;
+     
+
+}
+
+@font-face{
+    font-family: Oswald;
+    src: url('/fonts/Oswald-VariableFont_wght.ttf');
+    }
+
+#interface {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    border: 1px solid red;
+}
+
+#interface .cabecalho {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('../projeto_site/images/images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid yellow;
+}
+
+#interface .cabecalho .logoMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 7rem;
+    background-color: transparent;
+}
+
+#interface .cabecalho .logoMenu .linkLogo {
+    display: block;
+    width: 120px;
+}
+
+#interface .cabecalho .logoMenu a img {
+    width: 150px;
+}
+
+#interface .cabecalho .logoMenu .menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+#interface .cabecalho .logoMenu .menu {
+
+}
